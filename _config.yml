@@ -21,6 +21,4 @@ defaults:
   values:
     layout: page
 permalink: pretty
-plugins:
-- jekyll-seo-tag
-- jekyll-sitemap
+phone: "+91 7798630424"
