@@ -15,7 +15,7 @@ body {
 /* Custom page header */
 .header {
   padding-bottom: 1rem;
-  border-bottom: .05rem solid #e5e5e5;
+  border-bottom: .05rem solid $orange;
 }
 /* Make the masthead heading the same height as the navigation */
 .header h3 {
@@ -28,13 +28,13 @@ body {
 .footer {
   padding-top: 1.5rem;
   color: #777;
-  border-top: .05rem solid #e5e5e5;
+  border-top: .05rem solid $orange;
 }
 
 /* Customize container */
 @media (min-width: 48em) {
   .container {
-    max-width: 46rem;
+    max-width: 55rem;
   }
 }
 .container-narrow > hr {

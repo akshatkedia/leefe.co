@@ -1,0 +1,42 @@
+---
+---
+
+@charset "utf-8";
+
+@import "bootstrap/bootstrap";
+@import "variables";
+@import "narrow-jumbotron";
+
+// Custom
+// ------
+.jumbotron {
+  background-color: #F7F6EF;
+  color: $gray-700;
+  h1 {
+    color: $orange;
+  }
+}
+
+.marketing {
+  color: $orange
+}
+
+.marketing-primary {
+  img {
+    max-width: 75px;
+  }
+}
+
+.marketing-secondary {
+  img {
+    max-width: 50px;
+  }
+  p.font-weight-bold {
+    font-size: 0.875rem;
+  }
+}
+
+.btn-primary,
+.btn-primary:hover {
+  color: $white;
+}
